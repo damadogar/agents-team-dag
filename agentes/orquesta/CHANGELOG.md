@@ -2,6 +2,20 @@
 
 Formato basado en Keep a Changelog. Versionado semántico.
 
+## [1.3.0] — 2026-07-28
+
+### Added
+- **Sección "Protocolo de equipo"** en `gobernanza-y-etica.md`: referencia al nuevo
+  `TEAM-PROTOCOL.md` (raíz del repositorio), el protocolo operativo único compartido por
+  los 22 agentes + 2 clusters (ownership, plantilla canónica de handoff, gates,
+  escalamiento y los momentos exactos en que se debe consultar). orquesta queda como
+  Accountable (A) de ese documento.
+
+### Notas
+- Adición aditiva: no cambia RACI, Tiered META, ética de coordinación ni ningún
+  contenido existente de este archivo. Canario de despliegue del protocolo de equipo
+  antes de extenderlo a los otros 21 agentes + 2 clusters.
+
 ## [1.2.1] — 2026-07-12
 
 ### Changed
