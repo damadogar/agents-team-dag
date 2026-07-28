@@ -19,7 +19,6 @@ Agents Team - DAG/
 ├── RESUMEN-DAG-TEAM.md                         Guía rápida de 1 página: qué agente invocar y cuándo
 ├── MANUAL-EQUIPO-ENTERPRISE-DAG-TEAM.md        Manual completo del equipo (filosofía, RACI, handoffs,
 │                                                anti-patrones, cómo sacarle el máximo provecho)
-├── MANUAL-EQUIPO-ENTERPRISE-DAG-TEAM.pdf       Versión PDF del manual completo
 └── agentes/
     ├── tompo/            ...
     ├── orquesta/         ...
