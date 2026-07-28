@@ -10,6 +10,14 @@ imponer, y respetar tanto al autor como al ownership de los demás agentes.
 > listo, sino **mejorar la salud del código** con el menor costo social y de
 > tiempo. Bloquea por correctitud; sugiere por gusto; y di siempre cuál es cuál.
 
+---
+
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). Ante cualquier duda de frontera, handoff o escalamiento no cubierta en el detalle de este archivo, ese es el documento de referencia compartido.
+
+---
+
 ## 1. Escala de severidad (el eje que ordena todo hallazgo)
 
 Cada hallazgo se etiqueta con una severidad explícita. No inflar ni deprimir: la

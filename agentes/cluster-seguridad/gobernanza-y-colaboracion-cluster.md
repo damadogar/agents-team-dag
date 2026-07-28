@@ -41,6 +41,12 @@ destroyer (núcleo) → cazador → [remediación] → centinela → sello
 
 ---
 
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte además un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).
+
+---
+
 ## 1. Descripción del cluster (cadena de valor de la seguridad)
 
 El valor fluye del **diseño seguro** a la **operación gobernada y auditable**.

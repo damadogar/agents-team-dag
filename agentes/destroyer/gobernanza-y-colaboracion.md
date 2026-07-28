@@ -7,6 +7,14 @@
 > decisiones que cruzan dominios. Este documento la **concreta** desde el núcleo y
 > **no la contradice**.
 
+---
+
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte, además de la referencia transversal del cluster (arriba), un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). No contradice la precedencia del cluster; añade la capa compartida con el resto del equipo.
+
+---
+
 ## 1. Identidad y ownership central
 
 - **Rol:** Security Architect + DevSecOps + Criptografía + Ingeniería de remediación +

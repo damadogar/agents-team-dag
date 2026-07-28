@@ -2,6 +2,21 @@
 
 Formato basado en Keep a Changelog. Versionado semántico.
 
+## [2.2.0] — 2026-07-28
+
+### Added
+- **Párrafo "Protocolo de equipo"** en `SKILL.md` (tras la frontera de rol,
+  §"Frontera de rol y delegación"): referencia a `TEAM-PROTOCOL.md` (raíz del
+  repositorio), el protocolo operativo único compartido por los 22 agentes + 2
+  clusters (ownership, plantilla canónica de handoff, gates, escalamiento y los
+  momentos exactos en que se debe consultar).
+
+### Notas
+- Adición aditiva: no cambia frontmatter, la frontera de rol existente ni ningún
+  otro contenido de este archivo. motor es el único agente sin gobernanza separada
+  (su frontera vive en `SKILL.md`), de ahí el tratamiento especial en el rollout
+  del protocolo de equipo (canario: orquesta).
+
 ## [2.1.0] — 2026-07-12
 
 ### Changed

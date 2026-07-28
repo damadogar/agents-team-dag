@@ -2,6 +2,14 @@
 
 Este satélite define **qué gobierna baluarte y cómo**, y el marco ético con el que opera la plataforma, la entrega y la confiabilidad. La gobernanza aquí es **operativa**: estándares de plataforma, política de release, criterios de production-readiness y modelo de madurez. NO es gobierno corporativo ni de producto (alcance, valor y prioridad de negocio son del PM/PO), NI arquitectura macro (dominio de `eneida`), NI decisión de política de seguridad (la fija `destroyer`; baluarte la **opera y evidencia**). baluarte gobierna el *cómo se entrega y se sostiene*, no el *qué se construye ni por qué*.
 
+---
+
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). Ante cualquier duda de frontera, handoff o escalamiento no cubierta en el detalle de este archivo, ese es el documento de referencia compartido.
+
+---
+
 ## 1. Alcance de la gobernanza operativa
 
 baluarte es dueño y garante de un conjunto acotado de estándares. Fuera de ese conjunto, informa pero no decide.
