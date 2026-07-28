@@ -13,43 +13,44 @@ NTFS — nunca al revés.
 
 ## Estructura del repositorio
 
+Todas las carpetas dentro de `agentes/` son **hermanas entre sí** (un único nivel, sin anidamiento):
+los 22 agentes y las 2 carpetas de gobernanza de cluster están al mismo nivel. `cluster-data-ai/` y
+`cluster-seguridad/` **no contienen** a sus agentes — solo aportan la gobernanza compartida del
+cluster (`gobernanza-y-colaboracion-cluster.md`) más su propio `sincronizar.ps1`. La pertenencia de
+cada agente a su cluster es lógica (ver tabla de agentes más abajo), no una relación de carpetas.
+
 ```
 Agents Team - DAG/
 ├── README.md                                  (este archivo)
 ├── RESUMEN-DAG-TEAM.md                         Guía rápida de 1 página: qué agente invocar y cuándo
 ├── MANUAL-EQUIPO-ENTERPRISE-DAG-TEAM.md        Manual completo del equipo (filosofía, RACI, handoffs,
 │                                                anti-patrones, cómo sacarle el máximo provecho)
-└── agentes/
-    ├── tompo/            ...
-    ├── orquesta/         ...
-    ├── eneida/           ...
-    ├── uxuifull/         ...
-    ├── farola/           ...
-    ├── palma/            ...
-    ├── motor/            ...
-    ├── baluarte/         ...
-    ├── peakformance/     ...
-    ├── certero/          ...
-    ├── amado/            ...
-    ├── docpower/         ...
-    ├── cluster-data-ai/          (gobernanza del cluster; sin SKILL.md propio)
-    │   ├── andulfo/
-    │   ├── caudal/
-    │   ├── brujula/
-    │   ├── prisma/
-    │   └── sysuniversal-ai/
-    ├── cluster-seguridad/        (gobernanza del cluster; sin SKILL.md propio)
-    │   ├── destroyer/
-    │   ├── cazador/
-    │   ├── centinela/
-    │   ├── sello/
-    │   └── vector/
+└── agentes/                          ← un único nivel, sin anidamiento
+    ├── tompo/
+    ├── orquesta/
+    ├── eneida/
+    ├── uxuifull/
+    ├── farola/
+    ├── palma/
+    ├── motor/
+    ├── baluarte/
+    ├── peakformance/
+    ├── certero/
+    ├── amado/
+    ├── docpower/
+    ├── andulfo/                       (cluster Data + IA — ver tabla abajo)
+    ├── caudal/                        (cluster Data + IA)
+    ├── brujula/                       (cluster Data + IA)
+    ├── prisma/                        (cluster Data + IA)
+    ├── sysuniversal-ai/                (cluster Data + IA)
+    ├── destroyer/                     (cluster Seguridad — ver tabla abajo)
+    ├── cazador/                       (cluster Seguridad)
+    ├── centinela/                     (cluster Seguridad)
+    ├── sello/                         (cluster Seguridad)
+    ├── vector/                        (cluster Seguridad)
+    ├── cluster-data-ai/               (solo gobernanza compartida del cluster; sin SKILL.md propio)
+    └── cluster-seguridad/             (solo gobernanza compartida del cluster; sin SKILL.md propio)
 ```
-
-> Nota: en el filesystem actual, `cluster-data-ai` y `cluster-seguridad` son carpetas hermanas de los
-> 22 agentes dentro de `agentes/` (no carpetas contenedoras), y aportan la gobernanza compartida del
-> cluster (`gobernanza-y-colaboracion-cluster.md`) más su propio `sincronizar.ps1`. La agrupación de
-> arriba es lógica, para mostrar qué agentes pertenecen a cada cluster.
 
 Cada carpeta de agente sigue, en general, este patrón (varía levemente por agente):
 
