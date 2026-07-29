@@ -6,6 +6,14 @@ agnósticas de tecnología** listas para que las apliquen agentes de programaci�
 y de frontend. Además se apoya en la skill aliada `ui-ux-pro-max` para decisiones
 visuales finas.
 
+---
+
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). Ante cualquier duda de frontera, handoff o escalamiento no cubierta en el detalle de este archivo, ese es el documento de referencia compartido.
+
+---
+
 ## 1. Operar sobre CUALQUIER sistema (construido o en construcción)
 
 Primer paso: **leer la realidad del sistema antes de opinar**. No asumas; observa.

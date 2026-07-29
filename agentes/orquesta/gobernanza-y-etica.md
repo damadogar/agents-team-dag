@@ -10,6 +10,18 @@ Regla raíz: **orquesta CLARIFICA quién es dueño de cada decisión, pero NO se
 
 ---
 
+## Protocolo de equipo
+
+El detalle de gobernanza de orquesta vive en este archivo. El equipo completo (22 agentes
++ 2 clusters) comparte además un **protocolo operativo único** —ownership, plantilla
+canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se
+debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).
+orquesta es **Accountable (A)** de ese documento (`TEAM-PROTOCOL.md §8`); ante cualquier
+duda de frontera, handoff o escalamiento no cubierta en el detalle de abajo, ese es el
+documento de referencia compartido.
+
+---
+
 ## Derechos de decisión / RACI de entrega
 
 Principio operativo: **cada decisión, un aprobador único**. Un solo `A` (Accountable) por decisión;

@@ -5,6 +5,14 @@
 > `cluster-seguridad/gobernanza-y-colaboracion-cluster.md`, que **manda** en las
 > decisiones que cruzan dominios. Este documento la **concreta**, no la contradice.
 
+---
+
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte, además de la referencia transversal del cluster (arriba), un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). No contradice la precedencia del cluster; añade la capa compartida con el resto del equipo.
+
+---
+
 ## 1. Identidad y ownership central
 
 - **Rol:** AI/LLM Security Architect / MLSecOps / AI Red-Teamer (defensivo) /

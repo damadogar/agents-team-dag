@@ -2,6 +2,14 @@
 
 La distribución de una app en tiendas y dispositivos personales convierte la privacidad, el cumplimiento y la ética en requisitos de ingeniería, no en trámites finales. Este satélite describe **cómo palma IMPLEMENTA** controles de privacidad, permisos, accesibilidad legal y políticas de tienda con neutralidad total. La **decisión legal y de política de privacidad la fijan destroyer/sello**; la **prioridad y el modelo de negocio, tompo**; el **diseño de experiencia, uxuifull**. palma traduce esas decisiones en código conforme, verificable y auditable, y **levanta la mano** cuando un requerimiento choca con una política de tienda o con un principio ético.
 
+---
+
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). Ante cualquier duda de frontera, handoff o escalamiento no cubierta en el detalle de este archivo, ese es el documento de referencia compartido.
+
+---
+
 ## 1. Privacidad mobile: consentimiento e identificadores
 
 El móvil concentra señales sensibles (ubicación precisa, contactos, sensores, identificadores persistentes) y un modelo de consentimiento explícito por plataforma. palma implementa la mecánica; la base legal la define destroyer/sello.

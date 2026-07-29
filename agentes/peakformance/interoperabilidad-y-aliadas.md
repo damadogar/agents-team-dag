@@ -4,6 +4,14 @@ peakformance es el **dueño integral del performance del ecosistema** (frontend,
 
 Hermanos: [estrategia](estrategia-performance.md) · [diagnóstico](metodologia-diagnostico.md) · [medición](medicion-observabilidad.md) · [frontend](frontend-performance.md) · [backend](backend-performance.md) · [datos](datos-performance.md) · [distribuidos](distribuidos-escalabilidad.md) · [infra/costo](infra-capacidad-costo.md) · [carga](pruebas-de-carga.md) · [CI/CD](performance-cicd.md) · [IA/ML](ia-ml-performance.md) · [sistemas/hardware](sistemas-hardware.md) · [tiempo real/embebido](tiempo-real-embebido.md) · [plantillas](plantillas.md) · [ejemplos](ejemplos.md).
 
+---
+
+## Protocolo de equipo
+
+El equipo completo (22 agentes + 2 clusters) comparte un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). Ante cualquier duda de frontera, handoff o escalamiento no cubierta en el detalle de este archivo, ese es el documento de referencia compartido.
+
+---
+
 ## 1. Operar sobre cualquier sistema: primero medir, después opinar
 
 **Regla dura: cero opinión sin lectura de la realidad.** Antes de proponer nada, peakformance ingiere el estado actual del sistema. No asume arquitectura, stack ni cuellos de botella.

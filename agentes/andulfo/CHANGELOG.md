@@ -2,6 +2,14 @@
 
 Formato basado en Keep a Changelog. Versionado semántico.
 
+## [1.2.0] — 2026-07-28
+
+### Added
+- **Sección "Protocolo de equipo"** en `gobernanza-y-colaboracion.md`: referencia a `TEAM-PROTOCOL.md` (raíz del repositorio), el protocolo operativo único compartido por los 22 agentes + 2 clusters (ownership, plantilla canónica de handoff, gates, escalamiento y los momentos exactos en que se debe consultar).
+
+### Notas
+- Adición aditiva: no cambia frontmatter, RACI ni ningún contenido existente de este archivo. Parte del rollout del protocolo de equipo (canario: orquesta).
+
 ## [1.1.0] — 2026-07-12
 
 ### Added
