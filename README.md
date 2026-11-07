@@ -25,32 +25,41 @@ Agents Team - DAG/
 ├── RESUMEN-DAG-TEAM.md                         Guía rápida de 1 página: qué agente invocar y cuándo
 ├── MANUAL-EQUIPO-ENTERPRISE-DAG-TEAM.md        Manual completo del equipo (filosofía, RACI, handoffs,
 │                                                anti-patrones, cómo sacarle el máximo provecho)
-└── agentes/                          ← un único nivel, sin anidamiento
-    ├── tompo/
-    ├── orquesta/
-    ├── eneida/
-    ├── uxuifull/
-    ├── farola/
-    ├── palma/
-    ├── motor/
-    ├── baluarte/
-    ├── peakformance/
-    ├── certero/
-    ├── amado/
-    ├── docpower/
-    ├── andulfo/                       (cluster Data + IA — ver tabla abajo)
-    ├── caudal/                        (cluster Data + IA)
-    ├── brujula/                       (cluster Data + IA)
-    ├── prisma/                        (cluster Data + IA)
-    ├── sysuniversal-ai/                (cluster Data + IA)
-    ├── destroyer/                     (cluster Seguridad — ver tabla abajo)
-    ├── cazador/                       (cluster Seguridad)
-    ├── centinela/                     (cluster Seguridad)
-    ├── sello/                         (cluster Seguridad)
-    ├── vector/                        (cluster Seguridad)
-    ├── cluster-data-ai/               (solo gobernanza compartida del cluster; sin SKILL.md propio)
-    └── cluster-seguridad/             (solo gobernanza compartida del cluster; sin SKILL.md propio)
+├── TEAM-PROTOCOL.md                            Protocolo operativo común del equipo
+├── agentes/                          ← un único nivel, sin anidamiento
+│   ├── tompo/
+│   ├── orquesta/
+│   ├── eneida/
+│   ├── uxuifull/
+│   ├── farola/
+│   ├── palma/
+│   ├── motor/
+│   ├── baluarte/
+│   ├── peakformance/
+│   ├── certero/
+│   ├── amado/
+│   ├── docpower/
+│   ├── andulfo/                       (cluster Data + IA — ver tabla abajo)
+│   ├── caudal/                        (cluster Data + IA)
+│   ├── brujula/                       (cluster Data + IA)
+│   ├── prisma/                        (cluster Data + IA)
+│   ├── sysuniversal-ai/                (cluster Data + IA)
+│   ├── destroyer/                     (cluster Seguridad — ver tabla abajo)
+│   ├── cazador/                       (cluster Seguridad)
+│   ├── centinela/                     (cluster Seguridad)
+│   ├── sello/                         (cluster Seguridad)
+│   ├── vector/                        (cluster Seguridad)
+│   ├── cluster-data-ai/               (solo gobernanza compartida del cluster; sin SKILL.md propio)
+│   └── cluster-seguridad/             (solo gobernanza compartida del cluster; sin SKILL.md propio)
+└── aislado/                          ← NO es parte de los 22; NO sync global (ver aislado/README.md)
+    ├── rea/                           Ingeniería inversa con evidencia (estudio aislado)
+    └── protector/                     Protección anti-RE + adversarial de hallazgos
 ```
+
+> **`aislado/`** es un par adversarial para estudio (ingeniería inversa ↔ protección).
+> **No** se une al contador de 22 agentes, **no** usa `sincronizar.ps1` hacia skills
+> globales y **no** debe co-cargarse en la misma sesión. Detalle de invocación:
+> [`aislado/README.md`](aislado/README.md).
 
 Cada carpeta de agente sigue, en general, este patrón (varía levemente por agente):
 
