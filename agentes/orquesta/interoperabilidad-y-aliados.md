@@ -100,6 +100,8 @@ cada rol lo encarna un agente concreto:
 | QA / calidad | `amado` |
 | Seguridad | `destroyer` (+ `cazador`/`centinela`/`sello`/`vector`) |
 | Documentación | `docpower` |
+| SEO / search visibility | `radar` |
+| Marketing / GTM / growth | `auge` |
 
 En organizaciones **sin** estos agentes, el mapa se colapsa a los roles: lo que no
 cambia es que **cada decisión tenga un único dueño (A)** y orquesta coordine el flujo.
@@ -202,6 +204,8 @@ rutea directo).
 | **amado** | Gates de calidad integrados en la cadencia | Estrategia de pruebas, estado de calidad, defectos, re-test |
 | **destroyer** (+ cluster) | Gates de seguridad integrados; coordinación de remediación | Decisión de seguridad, severidad, requisitos de cumplimiento |
 | **docpower** | Coordinación de documentación en la cadencia | Estado y dependencias de documentación |
+| **radar** | Tareas SEO ruteadas; sync con farola/auge | Avance orgánico, bloqueos técnicos de búsqueda |
+| **auge** | Tareas GTM/ads/lifecycle ruteadas; sync con tompo/radar | Avance de demanda, bloqueos de medición/spend |
 
 ---
 

@@ -2,6 +2,12 @@
 
 Formato basado en Keep a Changelog. Versionado semántico.
 
+## [1.2.0] — 2026-11-06
+
+### Added
+- SME map actualizado con **`radar`** y **`auge`** en gobernanza (findability web /
+  contenidos de mercado vs forma documental).
+
 ## [1.1.0] — 2026-07-28
 
 ### Added

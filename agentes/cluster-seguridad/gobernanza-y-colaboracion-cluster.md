@@ -1,4 +1,4 @@
-﻿# gobernanza-y-colaboracion-cluster.md — Gobernanza transversal del Cluster Seguridad (Destroyer)
+# gobernanza-y-colaboracion-cluster.md — Gobernanza transversal del Cluster Seguridad (Destroyer)
 
 > **Referencia única** para decisiones que cruzan **arquitectura segura, ofensiva,
 > defensiva/detección, gobierno/cumplimiento y seguridad de IA**. Define ownership,
@@ -43,7 +43,7 @@ destroyer (núcleo) → cazador → [remediación] → centinela → sello
 
 ## Protocolo de equipo
 
-El equipo completo (22 agentes + 2 clusters) comparte además un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).
+El equipo completo (24 agentes + 2 clusters) comparte además un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).
 
 ---
 

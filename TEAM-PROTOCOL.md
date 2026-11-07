@@ -1,6 +1,7 @@
 # TEAM PROTOCOL — DAG TEAM
 
-> **Estado:** borrador v0.1 para revisión. Aún no referenciado por ningún agente.
+> **Estado:** v0.2 — operativo. Incluye crecimiento (`radar` / `auge`) en el mapa de
+> ownership del equipo (24 agentes + 2 clusters).
 
 ## 0. Qué es esto y por qué existe
 
@@ -14,7 +15,7 @@ verdad operativa.
 
 `TEAM-PROTOCOL.md` **no reemplaza** las gobernanzas individuales de cada agente (que
 siguen siendo la fuente del detalle de su dominio: fronteras finas, tabla RACI propia,
-handoffs típicos de esa disciplina). Consolida **lo que es común a los 22 agentes + 2
+handoffs típicos de esa disciplina). Consolida **lo que es común a los 24 agentes + 2
 clusters** en un único lugar, y **cada agente lo referencia desde su propia gobernanza**
 para que sea efectivamente consultado, no solo un documento de lectura opcional.
 
@@ -50,6 +51,9 @@ Consolidado de la filosofía del equipo (`MANUAL §1`) y los principios de gobie
    (`tompo`), arquitectura (`eneida`), pipeline (`baluarte`) ni el craft de un
    especialista — ver el detalle de su modelo T1/T2/T3 en
    `orquesta/gobernanza-y-etica.md` e `interoperabilidad-y-aliados.md`.
+9. **Crecimiento tiene dueños distintos.** Visibilidad en búsqueda (orgánica / AI search)
+   es de **`radar`**; GTM, brand de mercado, paid y lifecycle son de **`auge`**. No se
+   intercambian. El *qué/para quién* de producto sigue siendo de `tompo`.
 
 ---
 
@@ -58,7 +62,7 @@ Consolidado de la filosofía del equipo (`MANUAL §1`) y los principios de gobie
 - Cada agente tiene su **propia tabla RACI de dominio** en su gobernanza individual
   (`gobernanza-y-colaboracion.md` / `gobernanza-y-etica.md`); este protocolo no las
   repite ni las sustituye.
-- **Regla anti-conflicto (aplica a los 22 agentes + 2 clusters):** si dos agentes creen
+- **Regla anti-conflicto (aplica a los 24 agentes + 2 clusters):** si dos agentes creen
   ser **A** de la misma decisión, **gana el dueño del dominio** y el otro pasa a **C**.
   Si la decisión cruza dominios sin A claro, se **escala** (§5).
 - **Cobertura adjunta:** cuando un agente cubre temporalmente un rol ausente (p. ej.
@@ -85,7 +89,7 @@ cuando aplican al tipo de handoff; el resto es obligatorio.
 - Contrato / interfaz esperada: [OpenAPI/AsyncAPI/DDL/firma] (opcional — cuando hay contrato técnico)
 - Dependencias: [de qué depende / qué depende de esto; ruta crítica]
 - Fecha objetivo / ventana: [rango + confianza, no promesa de punto único]
-- Gates a integrar: [correctitud=certero, calidad=amado, seguridad=destroyer, release=baluarte]
+- Gates a integrar: [correctitud=certero, calidad=amado, seguridad=destroyer, release=baluarte; si web/mercado: SEO=radar, GTM=auge]
 - Lo que decide el dueño: [explícito]
 - Validación de regreso: [cómo se verificará que se respetó lo acordado]
 ```
@@ -180,6 +184,8 @@ solo que exista.
 - **Cobertura adjunta no declarada** → siempre marcada explícitamente.
 - **Documentar al final y a la carrera** → `docpower` se integra durante el flujo, no
   al cierre.
+- **Pedir SEO a `auge` o ads a `radar`** → ownership de crecimiento cruzado incorrecto.
+- **Lanzar web pública sin `radar`/`auge` cuando aplica** → crecimiento a ciegas.
 
 ---
 
@@ -197,13 +203,13 @@ solo que exista.
   del repositorio (no un `CHANGELOG.md` propio); el repositorio es la fuente de
   trazabilidad.
 - **No reemplaza** ninguna gobernanza individual de agente ni de cluster: consolida solo
-  lo transversal a los 22 agentes + 2 clusters.
+  lo transversal a los 24 agentes + 2 clusters.
 
 ---
 
 ## 9. Cómo cada agente lo referencia
 
-Cada uno de los 22 agentes + 2 clusters añade, en su propio archivo de gobernanza
+Cada uno de los 24 agentes + 2 clusters añade, en su propio archivo de gobernanza
 (`gobernanza-y-colaboracion.md` / `gobernanza-y-etica.md` / `gobernanza-y-colaboracion-cluster.md`),
 un párrafo corto que apunta a este documento como protocolo compartido del equipo — sin
 tocar su frontmatter (`name`/`description`/triggers) ni su contenido de dominio existente.
@@ -222,3 +228,5 @@ sea un archivo aislado que nadie referencia.
   anti-patrones de arquitectura.
 - `agentes/tompo/gobernanza-y-colaboracion.md` — RACI de producto, reglas de faceta
   única, escalamiento.
+- `agentes/radar/gobernanza-y-colaboracion.md` — SEO / search visibility.
+- `agentes/auge/gobernanza-y-colaboracion.md` — Marketing / GTM / growth.

@@ -73,7 +73,7 @@ prever sus modos de fallo.
   diseño** y escribes las **pruebas de tu propio código**; amado define y ejecuta
   la estrategia global y verifica tus fixes.
 
-**Protocolo de equipo:** además de esta frontera, el equipo completo (22 agentes + 2
+**Protocolo de equipo:** además de esta frontera, el equipo completo (24 agentes + 2
 clusters) comparte un protocolo operativo único —ownership, plantilla canónica de
 handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe
 consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).

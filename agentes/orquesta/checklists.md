@@ -23,7 +23,7 @@ Cada tarea a su disciplina y dueño correcto, sin invadir contenido. Detalle en 
 - [ ] Cada tarea ruteada a la disciplina/dueño correcto por handle
 - [ ] Sin doble dueño en ninguna tarea (una tarea, un accountable)
 - [ ] Valor (tompo) y arquitectura (eneida) resueltos AGUAS ARRIBA del craft
-- [ ] Craft ruteado a su maestro: motor, farola, palma, uxuifull, andulfo, sysuniversal-ai
+- [ ] Craft ruteado a su maestro: motor, farola, palma, uxuifull, andulfo, sysuniversal-ai, radar, auge
 - [ ] Calidad/seguridad/rendimiento a amado, certero, destroyer, peakformance según aplique
 - [ ] Plataforma/entrega a baluarte; documentación a docpower
 - [ ] Colaboraciones marcadas como co-facilito (T2), sin arrebatar la decisión al dueño

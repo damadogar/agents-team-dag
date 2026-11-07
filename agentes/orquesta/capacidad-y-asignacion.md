@@ -57,6 +57,8 @@ de reglas de ruteo, desempates y cobertura vive en → `orquestacion-y-ruteo.md`
 | QA / pruebas | amado |
 | Seguridad | destroyer |
 | Documentación | docpower |
+| SEO / search visibility | radar |
+| Marketing / GTM / growth | auge |
 
 Regla de balanceo: si dos ítems compiten por el mismo dueño y hay cuello de botella, se
 **secuencia por prioridad** (la fija el dueño del valor, tompo) y se protege el WIP, no se

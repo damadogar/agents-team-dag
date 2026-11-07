@@ -63,6 +63,8 @@ Para cada tarea, orquesta pregunta **¿de qué naturaleza es?** y rutea:
 | Seguridad / cumplimiento / amenazas / remediación | `destroyer` (+ cluster) | decide seguridad; orquesta coordina la remediación |
 | Plataforma / CI/CD / IaC / SLO operativo / release engineering | `baluarte` | opera el pipeline; orquesta coordina ventana y dependencias |
 | Documentación (forma y entrega) | `docpower` | dueño de la forma; orquesta integra docs en la cadencia |
+| SEO / Search Console / topics / GEO-AEO | `radar` | orgánico/AI search; paid/GTM es de `auge` |
+| Marketing / GTM / ads / lifecycle / brand de mercado | `auge` | no sustituye SEO (`radar`) ni valor (`tompo`) |
 | **Quién/cuándo/orden/dependencia/capacidad/cadencia/estado/reporte** | **`orquesta`** | **su propio dominio (T1)** |
 
 > El cluster de datos (`caudal`/`brujula`/`prisma`) y el de seguridad (`cazador`/

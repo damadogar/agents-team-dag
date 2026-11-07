@@ -1,4 +1,4 @@
-﻿# gobernanza-y-colaboracion-cluster.md — Gobernanza transversal del Cluster Data + IA
+# gobernanza-y-colaboracion-cluster.md — Gobernanza transversal del Cluster Data + IA
 
 > **Referencia única** para decisiones que cruzan **plataforma, pipelines,
 > semántica, modelos e IA**. Define ownership, RACI conjunta, anti-patrones y
@@ -48,7 +48,7 @@ andulfo → caudal → brujula → prisma → sysuniversal-ai
 
 ## Protocolo de equipo
 
-El equipo completo (22 agentes + 2 clusters) comparte además un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).
+El equipo completo (24 agentes + 2 clusters) comparte además un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).
 
 ---
 

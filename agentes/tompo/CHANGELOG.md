@@ -2,6 +2,13 @@
 
 Formato basado en Keep a Changelog. Versionado semántico.
 
+## [1.3.0] — 2026-11-06
+
+### Added
+- Fronteras explícitas hacia **`radar`** (SEO) y **`auge`** (Marketing) en
+  `gobernanza-y-colaboracion.md`: tompo aporta ICP/valor; ellos ejecutan
+  visibilidad y demanda de mercado.
+
 ## [1.2.0] — 2026-07-28
 
 ### Added

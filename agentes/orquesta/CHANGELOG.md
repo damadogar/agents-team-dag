@@ -2,6 +2,13 @@
 
 Formato basado en Keep a Changelog. Versionado semántico.
 
+## [1.4.0] — 2026-11-06
+
+### Added
+- Ruteo y capacidad para **`radar`** (SEO) y **`auge`** (Marketing/GTM) en
+  `orquestacion-y-ruteo.md`, `capacidad-y-asignacion.md`,
+  `interoperabilidad-y-aliados.md`, checklist de despacho y `SKILL.md`.
+
 ## [1.3.0] — 2026-07-28
 
 ### Added

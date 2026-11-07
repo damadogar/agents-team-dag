@@ -13,7 +13,7 @@ escalamiento**. Es la referencia del `SKILL.md §1` y `§9`.
 
 ## Protocolo de equipo
 
-El equipo completo (22 agentes + 2 clusters) comparte un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). Ante cualquier duda de frontera, handoff o escalamiento no cubierta en el detalle de este archivo, ese es el documento de referencia compartido.
+El equipo completo (24 agentes + 2 clusters) comparte un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). Ante cualquier duda de frontera, handoff o escalamiento no cubierta en el detalle de este archivo, ese es el documento de referencia compartido.
 
 ---
 

@@ -3,10 +3,10 @@
   <div class="cover-title">Manual de Uso</div>
   <div class="cover-sub">Equipo Enterprise de Agentes</div>
   <div class="cover-rule"></div>
-  <div class="cover-tag">22 agentes especializados&nbsp;&nbsp;·&nbsp;&nbsp;2 clusters gobernados</div>
+  <div class="cover-tag">24 agentes especializados&nbsp;&nbsp;·&nbsp;&nbsp;2 clusters gobernados</div>
   <div class="cover-meta">
-    <span><b>Versión</b> 1.0</span>
-    <span><b>Fecha</b> 12 jul 2026</span>
+    <span><b>Versión</b> 1.1</span>
+    <span><b>Fecha</b> 6 nov 2026</span>
     <span><b>Marca</b> DAG</span>
   </div>
   <p class="cover-desc">Guía profesional y completa para saber <i>cuándo</i>, <i>cómo</i> y <i>por qué</i>
@@ -18,7 +18,7 @@
 Este documento está pensado para convertirse en PDF profesional. Está organizado en tres grandes bloques:
 
 1. **Fundamentos** (secciones 1–4): filosofía, composición del equipo, principios de gobierno y los dos modelos de invocación.
-2. **Referencia de agentes** (secciones 5–7): fichas individuales de los 22 agentes y explicación de los dos clusters.
+2. **Referencia de agentes** (secciones 5–7): fichas individuales de los 24 agentes y explicación de los dos clusters.
 3. **Operación práctica** (secciones 8–14): de la necesidad a la realidad, playbooks por escenario, RACI, handoffs, buenas prácticas, anti-patrones y plantillas.
 
 Si solo quieres empezar rápido, ve a la **sección 8 (De la necesidad a la realidad)** y la **sección 15 (Cheat sheet)**.
@@ -67,16 +67,16 @@ Los agentes transversales (plataforma, performance, correctitud, documentación)
 
 ## 2. Composición del equipo
 
-**22 agentes** organizados en un núcleo de producto/entrega y dos clusters gobernados. Además hay **2 documentos de gobernanza de cluster** que definen ownership, RACI y handoffs.
+**24 agentes** organizados en un núcleo de producto/entrega y dos clusters gobernados. Además hay **2 documentos de gobernanza de cluster** que definen ownership, RACI y handoffs.
 
 ### 2.1 Mapa general
 
 | Bloque | Agentes | Nº |
 |--------|---------|:--:|
-| **Núcleo de producto y entrega** | tompo, orquesta, eneida, uxuifull, farola, motor, palma, amado, certero, baluarte, peakformance, docpower | 12 |
+| **Núcleo de producto, entrega y crecimiento** | tompo, orquesta, eneida, uxuifull, farola, motor, palma, amado, certero, baluarte, peakformance, docpower, **radar**, **auge** | 14 |
 | **Cluster Data + IA** | andulfo, caudal, brujula, prisma, sysuniversal-ai | 5 |
 | **Cluster Seguridad (Destroyer)** | destroyer, cazador, centinela, sello, vector | 5 |
-| **Total** | | **22** |
+| **Total** | | **24** |
 
 **Documentos de cluster:**
 - `cluster-data-ai/gobernanza-y-colaboracion-cluster.md`
@@ -98,6 +98,8 @@ Los agentes transversales (plataforma, performance, correctitud, documentación)
 | Correctitud / code review / debugging | `certero` |
 | QA / calidad | `amado` |
 | Documentación | `docpower` |
+| SEO / visibilidad en búsqueda (orgánico + AI search) | `radar` |
+| Marketing / GTM / brand / demand / lifecycle | `auge` |
 | Datos: plataforma, pipelines, semántica | `andulfo` · `caudal` · `brujula` |
 | Ciencia de datos (modelos, experimentos) | `prisma` |
 | IA / LLM / MLOps | `sysuniversal-ai` |
@@ -126,6 +128,11 @@ Los agentes transversales (plataforma, performance, correctitud, documentación)
         └────┬────┘        └────┬─────┘        └─────┬─────┘
              └──────────┬───────┴────────────────────┘
                         ▼
+        ┌──────────────────────────────────────────┐
+        │  Crecimiento (cuando hay mercado/web)     │
+        │  radar (SEO / GEO-AEO) · auge (Marketing) │
+        └───────────────────┬──────────────────────┘
+                            ▼
         ┌──────────────────────────────────────────┐
         │  Gates transversales (siempre presentes)  │
         │  certero (correctitud) · amado (QA) ·     │
@@ -283,6 +290,24 @@ Cada ficha incluye: **rol**, **cuándo invocar**, **triggers** (palabras/situaci
 - **Uso suelto:** documentar un proyecto; escribir un README/guía; estandarizar la documentación de un repo.
 - **NO hace:** no genera el contenido técnico de fondo (lo aporta el especialista); gobierna la forma, no el fondo.
 
+### 5.13 `radar` — SEO / Search Visibility
+- **Rol:** Primer Maestro de SEO. Dueño de la **visibilidad en búsqueda** (Google/Bing y superficies AI/GEO-AEO): técnico, contenido, autoridad, local/intl.
+- **Cuándo invocar:** auditoría SEO, keywords/topics, indexación, schema, Core Web Vitals de búsqueda, migraciones SEO, estrategia orgánica, visibilidad en AI answers.
+- **Triggers:** SEO, Search Console, SERP, keywords, backlinks, crawl, schema, canibalización, AI Overviews, GEO, AEO.
+- **Entrega:** auditoría priorizada, roadmap 30/60/90, briefs SEO, specs técnicas para `farola`, plan de links, informe GEO/AEO.
+- **Uso suelto:** auditar un dominio; definir estrategia de topics; preparar lanzamiento orgánico de un sitio; revisar una migración SEO.
+- **NO hace:** no prioriza el producto (`tompo`), no corre ads/brand campaigns (`auge`), no implementa HTML (`farola`), no redefine UX de producto (`uxuifull`).
+- **Vigencia:** algoritmos y tools cambian — verifica datos en vivo o marca `[no verificado / a fecha]`.
+
+### 5.14 `auge` — Marketing / Growth & GTM
+- **Rol:** Primer Maestro de Marketing. Dueño de **cómo el mercado conoce, elige y vuelve**: positioning, demand/performance, lifecycle, brand de mercado, marketing ops.
+- **Cuándo invocar:** GTM de un producto/dominio, mensajería, campañas pagas, lifecycle/CRM, creative strategy, medición de adquisición, lanzamientos de marca.
+- **Triggers:** marketing, growth, GTM, ads, Meta/Google/TikTok Ads, HubSpot, CAC, funnel, lifecycle, brand, launch.
+- **Entrega:** plan GTM, messaging house, media plan, tracking plan, experiment backlog, dashboards de efficiency.
+- **Uso suelto:** armar el GTM de un lanzamiento; diagnosticar CAC; diseñar nurture; briefing creativo; stack de medición marketing.
+- **NO hace:** no define el backlog de producto (`tompo`), no hace SEO técnico/orgánico profundo (`radar`), no impone dark patterns (`uxuifull` es A de ética UX).
+- **Vigencia:** CPMs, políticas de ads y martech cambian — verifica en vivo o marca `[no verificado / a fecha]`.
+
 ---
 
 ## 6. Cluster Data + IA
@@ -417,6 +442,11 @@ Flujos, IA, wireframes/prototipos, design system y accesibilidad **antes** de co
 
 Cada especialista construye según los contratos de `eneida` y la prioridad de `tompo`.
 
+### Fase 5b — Crecimiento (cuando hay mercado, web o lanzamiento público)
+- Visibilidad orgánica / AI search → `radar` (puede empezar en paralelo tras IA mínima indexable)
+- GTM, brand, paid, lifecycle → `auge` (messaging alineado con `tompo`; landings con `farola`/`uxuifull`)
+- **Orgánico ≠ pago:** se coordinan; no se sustituyen.
+
 ### Fase 6 — Gates de calidad transversales (siempre)
 - **Correctitud** → `certero` (revisión de código, debugging)
 - **Calidad** → `amado` (estrategia y ejecución de pruebas, automatización)
@@ -464,13 +494,19 @@ Recetas concretas para situaciones frecuentes. Indican el orden de invocación y
 `uxuifull` (research, rediseño de flujo, accesibilidad) → `tompo` (validar valor/prioridad) → `farola`/`palma` (implementación) → `amado` (pruebas de usabilidad/accesibilidad) → `docpower` (guías).
 
 ### 9.8 Nuevo producto desde cero (greenfield)
-`tompo` (discovery, Product Goal) → `eneida` (arquitectura fundacional) → `uxuifull` (experiencia) → `orquesta` (plan) → construcción (`motor`/`farola`/`palma`/cluster datos) → gates (`certero`/`amado`/`peakformance`/`destroyer`) → `baluarte` (plataforma y entrega) → `docpower`.
+`tompo` (discovery, Product Goal) → `eneida` (arquitectura fundacional) → `uxuifull` (experiencia) → `orquesta` (plan) → construcción (`motor`/`farola`/`palma`/cluster datos) → **`radar` + `auge`** (si habrá web/mercado público) → gates (`certero`/`amado`/`peakformance`/`destroyer`) → `baluarte` (plataforma y entrega) → `docpower`.
 
 ### 9.9 Auditoría de calidad de un sistema heredado
 `amado` (estrategia y auditoría de calidad) + `certero` (revisión de correctitud) + `peakformance` (rendimiento) + `destroyer` (postura de seguridad) → `eneida` (recomendaciones arquitectónicas) → `tompo` (priorizar remediaciones) → `orquesta` (plan de saneamiento).
 
 ### 9.10 Cumplimiento / privacidad (GDPR, Ley 1581/Habeas Data)
 `sello` (DPIA, gap analysis, políticas) → `destroyer` (controles técnicos de privacidad/cifrado) → `andulfo` (gobierno del dato) → `eneida` (privacidad by design en arquitectura) → `amado` (verificación) → `docpower` (evidencia documental).
+
+### 9.11 Lanzar o posicionar un dominio / marca en internet
+`tompo` (oferta, ICP, valor) → `auge` (GTM, mensaje, canales, medición) → `radar` (SEO técnico + topics + GSC desde día 1) → `uxuifull`/`farola` (landings y UX) → `sello` (privacy/consent si aplica) → `baluarte` (hosting/DNS/CDN) → medición 28 días (`auge`+`radar`) → `docpower` (guías si hay producto docs).
+
+### 9.12 Auditoría SEO o caída de tráfico orgánico
+`radar` (diagnóstico GSC/crawl/contenido/links) → `farola`/`peakformance`/`baluarte` (fixes técnicos/CWV/infra según hallazgo) → `auge` (si brand/paid debe compensar) → `tompo` (priorizar remediación) → re-medición GSC.
 
 ---
 
@@ -505,6 +541,8 @@ No siempre necesitas al equipo completo. Muchas veces quieres **un especialista 
 | Revisar un PR / cazar un bug | `certero` |
 | Plan de pruebas / automatización | `amado` |
 | Documentar un proyecto / API | `docpower` |
+| Auditoría SEO / keywords / Search Console | `radar` |
+| GTM / ads / lifecycle / messaging de mercado | `auge` |
 | Tuning de BD / esquema / HA-DR | `andulfo` |
 | Construir un pipeline / migrar datos | `caudal` |
 | Definir métricas / modelo dimensional | `brujula` |
@@ -538,7 +576,21 @@ Leyenda: **R** Responsable · **A** Aprobador (dueño) · **C** Consultado · **
 | Implementación de una historia | A (diseño) | I | I | I | R | C |
 | Postura de seguridad / cumplimiento | C | I | I | C | C | R/A |
 
-> El "Especialista" es el dueño del dominio: `farola`/`uxuifull`/`palma`/`motor`/cluster datos/`peakformance`/`certero`/`amado`/`docpower`. "Seguridad" = `destroyer` (+ cluster).
+> El "Especialista" es el dueño del dominio: `farola`/`uxuifull`/`palma`/`motor`/cluster datos/`peakformance`/`certero`/`amado`/`docpower`/`radar`/`auge`. "Seguridad" = `destroyer` (+ cluster).
+
+### 11.1b RACI de crecimiento (extracto)
+
+| Decisión | tompo | radar | auge | farola | uxuifull |
+|----------|:-----:|:-----:|:----:|:------:|:--------:|
+| ICP / oferta / prioridad de valor | R/A | C | C | I | C |
+| Topic / keyword strategy orgánica | C | R/A | C | I | I |
+| Title/H1/schema en página | I | A | I | R | C |
+| Mensaje de mercado / category | C | I | R/A | I | C |
+| Budget paid media | C | I | R/A* | I | I |
+| Mix orgánico vs pago | A (valor) | R (orgánico) | R (pago) | I | I |
+| Ética de patrón de conversión | I | I | C | R | A |
+
+\* Con sponsor/negocio si el spend es de portafolio externo.
 
 ### 11.2 Regla anti-conflicto
 Si dos agentes creen ser **A** de la misma decisión, **gana el dueño del dominio** y el otro pasa a C. Si la decisión cruza dominios sin A claro, se **escala a `orquesta`** (para el flujo) o al dueño correspondiente (para el contenido).
@@ -576,6 +628,8 @@ Cuando delegas o cambias de fase, entrega esto (no ejecutes por el otro dominio)
 10. **Reutiliza los clusters como unidad.** Para datos/IA o seguridad, invoca el cluster y deja que su gobernanza interna reparta el trabajo.
 11. **Escala cuando el agente lo sugiera.** Si un especialista te dice "esto cruza dominios", conviértelo en iniciativa con `orquesta`.
 12. **Mide contra los criterios de éxito de `tompo`.** Cierra cada iniciativa comparando resultado vs. objetivo.
+13. **Separa orgánico y pago.** `radar` = búsqueda; `auge` = mercado/GTM/ads. Coordínalos; no pidas a uno el trabajo del otro.
+14. **Exige vigencia en crecimiento.** Rankings, CPMs y features de tools caducan: pide verificación en vivo o fecha explícita.
 
 ---
 
@@ -591,6 +645,9 @@ Cuando delegas o cambias de fase, entrega esto (no ejecutes por el otro dominio)
 - **Confundir "define el control" con "opera el control":** el cluster de seguridad define; `baluarte` opera.
 - **Empezar a construir sin arquitectura ni contratos** (`eneida`) cuando la iniciativa lo amerita.
 - **Documentar al final y a la carrera:** integra `docpower` como parte del flujo.
+- **Pedir SEO a `auge` o ads a `radar`:** rompe ownership de crecimiento.
+- **Lanzar dominio sin GSC (`radar`) ni medición (`auge`):** vuelas a ciegas.
+- **Dark patterns de conversión:** `uxuifull` es A de ética UX; `auge` no las impone.
 
 ---
 
@@ -646,6 +703,7 @@ Cuando delegas o cambias de fase, entrega esto (no ejecutes por el otro dominio)
 - [ ] Seguridad verificada / gates superados (destroyer + cluster)
 - [ ] Desplegado y observable (baluarte)
 - [ ] Documentado y trazable (docpower)
+- [ ] Si hay web pública: SEO baseline / GSC (`radar`) y GTM/medición (`auge`) cuando aplica
 - [ ] Criterios de éxito verificados (tompo)
 ```
 
@@ -653,7 +711,7 @@ Cuando delegas o cambias de fase, entrega esto (no ejecutes por el otro dominio)
 
 ## 15. Cheat sheet — referencia rápida
 
-### 15.1 Los 22 agentes en una línea
+### 15.1 Los 24 agentes en una línea
 
 | Agente | En una línea |
 |--------|--------------|
@@ -669,6 +727,8 @@ Cuando delegas o cambias de fase, entrega esto (no ejecutes por el otro dominio)
 | `certero` | Correctitud: code review y debugging. |
 | `amado` | Calidad: estrategia y ejecución de pruebas. |
 | `docpower` | Documentación con forma profesional. |
+| `radar` | SEO: visibilidad en búsqueda (orgánico + AI/GEO-AEO). |
+| `auge` | Marketing: GTM, brand, demand, lifecycle, growth. |
 | `andulfo` | Plataforma de datos / DBA / HA-DR. |
 | `caudal` | Pipelines y movimiento de datos. |
 | `brujula` | Capa semántica y métricas oficiales. |
@@ -698,6 +758,8 @@ Cuando delegas o cambias de fase, entrega esto (no ejecutes por el otro dominio)
    │       ├─ Revisión/bug ............................. certero
    │       ├─ Pruebas/calidad .......................... amado
    │       ├─ Documentación ............................ docpower
+   │       ├─ SEO / Search Console / orgánico .......... radar
+   │       ├─ Marketing / GTM / ads / lifecycle ........ auge
    │       ├─ Datos (plataforma/pipeline/semántica) ... andulfo/caudal/brujula
    │       ├─ Ciencia de datos ......................... prisma
    │       ├─ IA en producción ......................... sysuniversal-ai
@@ -713,7 +775,8 @@ Cuando delegas o cambias de fase, entrega esto (no ejecutes por el otro dominio)
 ### 15.3 Orden canónico de una iniciativa
 ```
 tompo → eneida → orquesta → uxuifull → [motor/farola/palma/cluster datos-IA]
-      → certero + amado + peakformance + seguridad → baluarte → docpower → retro
+      → radar + auge (si hay mercado/web) → certero + amado + peakformance + seguridad
+      → baluarte → docpower → retro
 ```
 
 ---

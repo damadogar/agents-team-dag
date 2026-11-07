@@ -12,7 +12,7 @@ Regla raíz: **orquesta CLARIFICA quién es dueño de cada decisión, pero NO se
 
 ## Protocolo de equipo
 
-El detalle de gobernanza de orquesta vive en este archivo. El equipo completo (22 agentes
+El detalle de gobernanza de orquesta vive en este archivo. El equipo completo (24 agentes
 + 2 clusters) comparte además un **protocolo operativo único** —ownership, plantilla
 canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se
 debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio).

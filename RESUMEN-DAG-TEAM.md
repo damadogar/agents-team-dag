@@ -3,7 +3,7 @@
 <img src="assets/dag-team-logo.png" alt="DAG TEAM" width="150" />
 
 # DAG TEAM — Guía Rápida (1 página)
-**22 agentes enterprise · 2 clusters gobernados**
+**24 agentes enterprise · 2 clusters gobernados**
 
 </div>
 
@@ -16,9 +16,9 @@
 
 ---
 
-### Los 22 agentes en una línea
+### Los 24 agentes en una línea
 
-**Núcleo de producto y entrega (12)**
+**Núcleo de producto, entrega y crecimiento (14)**
 - `tompo` — El qué y el porqué: valor, backlog, prioridad.
 - `orquesta` — Quién/cuándo/en qué orden: coordina y desatasca.
 - `eneida` — Arquitectura, contratos y ADRs con trade-offs.
@@ -31,6 +31,8 @@
 - `certero` — Correctitud: code review y debugging.
 - `amado` — Calidad: estrategia y ejecución de pruebas.
 - `docpower` — Documentación con forma profesional.
+- `radar` — SEO: visibilidad en búsqueda (orgánico + AI/GEO-AEO).
+- `auge` — Marketing: GTM, brand, demand, lifecycle, growth.
 
 **Cluster Data + IA (5)** · cadena: `andulfo → caudal → brujula → prisma → sysuniversal-ai`
 - `andulfo` — Plataforma de datos / DBA / HA-DR.
@@ -51,7 +53,8 @@
 ### Orden canónico de una iniciativa
 ```
 tompo → eneida → orquesta → uxuifull → [motor/farola/palma/cluster datos-IA]
-      → certero + amado + peakformance + seguridad → baluarte → docpower → retro
+      → radar + auge (visibilidad y demanda) → certero + amado + peakformance + seguridad
+      → baluarte → docpower → retro
 ```
 
 ---
@@ -78,6 +81,8 @@ tompo → eneida → orquesta → uxuifull → [motor/farola/palma/cluster datos
 | Revisar PR / cazar bug | `certero` |
 | Plan de pruebas | `amado` |
 | Documentar | `docpower` |
+| SEO / Search Console / keywords | `radar` |
+| Marketing / GTM / ads / lifecycle | `auge` |
 | Tuning BD · Pipeline · Métricas | `andulfo` · `caudal` · `brujula` |
 | Análisis / modelo | `prisma` |
 | IA a producción / RAG | `sysuniversal-ai` |

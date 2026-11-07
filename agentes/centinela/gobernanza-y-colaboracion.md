@@ -9,7 +9,7 @@
 
 ## Protocolo de equipo
 
-El equipo completo (22 agentes + 2 clusters) comparte, además de la referencia transversal del cluster (arriba), un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). No contradice la precedencia del cluster; añade la capa compartida con el resto del equipo.
+El equipo completo (24 agentes + 2 clusters) comparte, además de la referencia transversal del cluster (arriba), un **protocolo operativo único** —ownership, plantilla canónica de handoff, gates que no se saltan, escalamiento y los momentos exactos en que se debe consultar— en [`TEAM-PROTOCOL.md`](../../TEAM-PROTOCOL.md) (raíz del repositorio). No contradice la precedencia del cluster; añade la capa compartida con el resto del equipo.
 
 ---
 

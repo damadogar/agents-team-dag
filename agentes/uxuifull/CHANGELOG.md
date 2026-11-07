@@ -2,6 +2,12 @@
 
 Formato basado en Keep a Changelog. Versionado semántico.
 
+## [1.5.0] — 2026-11-06
+
+### Added
+- Aliados de crecimiento **`radar`** / **`auge`** en interoperabilidad: findability
+  SEO y landings de marketing sin ceder dark patterns.
+
 ## [1.4.0] — 2026-07-28
 
 ### Added

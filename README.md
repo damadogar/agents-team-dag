@@ -1,6 +1,6 @@
 # DAG TEAM — Enterprise Agents
 
-Repositorio personal de respaldo y control de versiones del **DAG TEAM**: un equipo de **22 agentes
+Repositorio personal de respaldo y control de versiones del **DAG TEAM**: un equipo de **24 agentes
 enterprise** organizados en un núcleo de producto/entrega y **2 clusters** (Data + IA, Seguridad),
 implementados como **Claude Code Skills**.
 
@@ -14,7 +14,7 @@ NTFS — nunca al revés.
 ## Estructura del repositorio
 
 Todas las carpetas dentro de `agentes/` son **hermanas entre sí** (un único nivel, sin anidamiento):
-los 22 agentes y las 2 carpetas de gobernanza de cluster están al mismo nivel. `cluster-data-ai/` y
+los 24 agentes y las 2 carpetas de gobernanza de cluster están al mismo nivel. `cluster-data-ai/` y
 `cluster-seguridad/` **no contienen** a sus agentes — solo aportan la gobernanza compartida del
 cluster (`gobernanza-y-colaboracion-cluster.md`) más su propio `sincronizar.ps1`. La pertenencia de
 cada agente a su cluster es lógica (ver tabla de agentes más abajo), no una relación de carpetas.
@@ -39,6 +39,8 @@ Agents Team - DAG/
 │   ├── certero/
 │   ├── amado/
 │   ├── docpower/
+│   ├── radar/                         (SEO / search visibility)
+│   ├── auge/                          (Marketing / GTM / growth)
 │   ├── andulfo/                       (cluster Data + IA — ver tabla abajo)
 │   ├── caudal/                        (cluster Data + IA)
 │   ├── brujula/                       (cluster Data + IA)
@@ -51,13 +53,13 @@ Agents Team - DAG/
 │   ├── vector/                        (cluster Seguridad)
 │   ├── cluster-data-ai/               (solo gobernanza compartida del cluster; sin SKILL.md propio)
 │   └── cluster-seguridad/             (solo gobernanza compartida del cluster; sin SKILL.md propio)
-└── aislado/                          ← NO es parte de los 22; NO sync global (ver aislado/README.md)
+└── aislado/                          ← NO es parte de los 24; NO sync global (ver aislado/README.md)
     ├── rea/                           Ingeniería inversa con evidencia (estudio aislado)
     └── protector/                     Protección anti-RE + adversarial de hallazgos
 ```
 
 > **`aislado/`** es un par adversarial para estudio (ingeniería inversa ↔ protección).
-> **No** se une al contador de 22 agentes, **no** usa `sincronizar.ps1` hacia skills
+> **No** se une al contador de 24 agentes, **no** usa `sincronizar.ps1` hacia skills
 > globales y **no** debe co-cargarse en la misma sesión. Detalle de invocación:
 > [`aislado/README.md`](aislado/README.md).
 
@@ -76,9 +78,9 @@ Cada carpeta de agente sigue, en general, este patrón (varía levemente por age
 
 ---
 
-## Los 22 agentes
+## Los 24 agentes
 
-**Núcleo de producto y entrega (12)**
+**Núcleo de producto, entrega y crecimiento (14)**
 | Agente | Rol |
 |---|---|
 | `tompo` | Product Ownership — el qué y el porqué: valor, backlog, prioridad |
@@ -93,6 +95,8 @@ Cada carpeta de agente sigue, en general, este patrón (varía levemente por age
 | `certero` | Code review y debugging: correctitud |
 | `amado` | Calidad: estrategia y ejecución de QA |
 | `docpower` | Documentation engineering |
+| `radar` | SEO — visibilidad en búsqueda (clásica + AI/GEO-AEO) |
+| `auge` | Marketing — GTM, brand, demand, lifecycle, growth |
 
 **Cluster Data + IA (5)** — cadena `andulfo → caudal → brujula → prisma → sysuniversal-ai`
 | Agente | Rol |
@@ -159,10 +163,10 @@ Get-ChildItem "C:\DAG\Agents Team - DAG\agentes" -Directory | ForEach-Object {
 ## Estado de este repositorio
 
 Esta primera subida corresponde al **estado íntegro del equipo a la fecha**, sin modificaciones: los
-22 agentes + 2 clusters ya reorganizados en una única carpeta maestra (`agentes/`) y con sus
+24 agentes + 2 clusters ya reorganizados en una única carpeta maestra (`agentes/`) y con sus
 `sincronizar.ps1` actualizados a la ruta actual. Sirve como punto de referencia y de reversión antes
 de iniciar cualquier cambio futuro (p. ej., la introducción de un `TEAM-PROTOCOL.md` consolidado que
-los 22 agentes referencien).
+los 24 agentes referencien).
 
 ---
 

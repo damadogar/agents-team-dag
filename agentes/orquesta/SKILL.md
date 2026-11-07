@@ -204,7 +204,8 @@ verdad de la estructura). Detalle de mantenimiento al final.
 - **Pipeline CI/CD, IaC, confiabilidad operativa de plataforma** → **baluarte**.
 - **Craft de dominio** (backend `motor`, frontend `farola`, mobile `palma`, UX
   `uxuifull`, datos `andulfo`, IA `sysuniversal-ai`, performance `peakformance`,
-  correctitud/revisión `certero`, QA `amado`, seguridad `destroyer`, docs `docpower`).
+  correctitud/revisión `certero`, QA `amado`, seguridad `destroyer`, docs `docpower`,
+  SEO `radar`, marketing/GTM `auge`).
 - **Estrategia de pruebas** → **amado**; **decisión de seguridad** → **destroyer**.
 
 **COLABORA (co-facilita, no decide por el dueño):**
